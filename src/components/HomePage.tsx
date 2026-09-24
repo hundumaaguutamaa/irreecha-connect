@@ -64,8 +64,8 @@ export default function HomePage({ lang }: { lang: Lang }) {
           alt=""
           className="absolute inset-0 h-full w-full object-cover object-center"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/85 to-stone-950/45" />
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_10%,rgba(16,185,129,0.18),transparent_55%)]" />
+        <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/55 to-stone-950/10" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_10%,rgba(16,185,129,0.12),transparent_55%)]" />
 
         <div className="relative mx-auto flex min-h-[88vh] max-w-6xl flex-col justify-end px-5 pb-16 pt-24 sm:px-8">
           <motion.span
@@ -273,7 +273,7 @@ export default function HomePage({ lang }: { lang: Lang }) {
       {/* Diaspora band */}
       <section className="relative isolate overflow-hidden border-y border-stone-800">
         <img src={IMAGES.diaspora} alt="" className="absolute inset-0 h-full w-full object-cover" />
-        <div className="absolute inset-0 bg-gradient-to-r from-stone-950 via-stone-950/90 to-stone-950/50" />
+        <div className="absolute inset-0 bg-gradient-to-r from-stone-950 via-stone-950/65 to-stone-950/15" />
         <div className="relative mx-auto flex max-w-6xl flex-col gap-5 px-5 py-16 sm:px-8">
           <h2 className="max-w-xl font-display text-2xl font-semibold text-stone-50 sm:text-3xl">
             {dict.diaspora.title}

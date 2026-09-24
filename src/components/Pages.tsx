@@ -335,7 +335,7 @@ export function DiasporaPage({ lang, t }: PageProps) {
           alt=""
           className="absolute inset-0 h-full w-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-stone-950 via-stone-950/90 to-stone-950/50" />
+        <div className="absolute inset-0 bg-gradient-to-r from-stone-950 via-stone-950/65 to-stone-950/15" />
         <div className="relative mx-auto max-w-6xl px-5 py-14 sm:px-8">
           <h1 className="max-w-2xl font-display text-3xl font-semibold tracking-tight text-stone-50 sm:text-4xl">
             {t.diaspora.title}
